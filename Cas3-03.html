@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<h1>Forma za registracija</h1>
+	<br>
+	<hr>
+	<form action="" method="">
+		<label for="ime">Ime</label>
+		<input type="text" name="ime" id="ime" autofocus required>
+		<br><br>
+		<label for="prezime">Prezime</label>
+		<input type="text" name="Prezime" id="prezime">
+		<br><br>
+		<label for="email">Email</label>
+		<input type="email" name="Email" id="email">
+		<br><br>
+		<label for="password">Lozinka</label>
+		<input type="password" name="lozinka" id="password">
+		<br><br>
+
+		<p>Pol</p>
+          
+         <label for="r1">Mashki</label>
+         <input type="radio" name="pol" value="m" id="r1">
+
+         <label for="r2">Zenski</label>
+         <input type="radio" name="pol" value="f" id="r2">
+         <br><br>
+
+         <label for="datum">Datum na ragjanje</label>
+         <input type="date" name="" id="datum">
+         <br><br>
+         <label for="time">Vreme na ragjanje</label>
+         <input type="time" name="" id="time">
+         <br><br>
+
+         <label for="komentar">Komentar</label>
+         <textarea id="komentar" placeholder="Vnesi komentar..."></textarea>
+         <br><br>
+         <label for="drzava">Drzava</label>
+         <select name="drzava"id="drzava">
+         	<option value="mk">Mk</option>
+         	<option value="en">En</option>
+         	<option value="al">Al</option>
+         </select>
+         <br><br>
+
+         <label for="gradovi">Gradovi</label>
+         <select id="gradovi" multiple>
+         	<option value="pp">Prilep</option>
+         	<option value="sk">Skopje</option>
+         	<option value="oh">Ohrid</option>
+         </select>
+         <br><br>
+         Interesi
+         <br>
+         <input type="checkbox" name="group1" id="interes1">
+         <label for="interes1">Umetnost</label>
+         <br>
+         <input type="checkbox" name="group1" id="interes2">
+         <label for="interes2">Nauka</label>
+         <br>
+         <input type="checkbox" name="group1" id="interes3">
+         <label for="interes3">Sport</label>
+         <br><br><br>
+         Hrana
+         <br>
+         <input type="checkbox" name="group2" id="interes1">
+         <label for="hrana1">Umetnost</label>
+         <br>
+         <input type="checkbox" name="group2" id="interes2">
+         <label for="hrana2">Nauka</label>
+         <br>
+         <input type="checkbox" name="group2" id="interes3">
+         <label for="hrana3">Sport</label>
+         <br><br><br>
+         <hr>
+         <button>Zacuvaj</button>
+
+
+	</form>
+
+</body>
+</html>
