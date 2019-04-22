@@ -1,0 +1,31 @@
+body{
+	background-color: pink;
+	/*font-size: 22px;*/
+}
+
+.lista li{
+	list-style: square;
+	color: red; 
+}
+
+.lista2 li{
+	list-style: upper-roman; 
+	color: blue;
+}
+
+.menu {
+	list-style: none;
+	background-color: black;
+	padding-left: 0;
+	border: 2px solid black;
+
+}
+
+.menu li{
+	color: white;
+	background-color: blue;
+	margin:  10px;
+	text-align: center;
+
+
+}
